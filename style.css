@@ -1,0 +1,101 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 5px;
+  background-color: #E9E6FF;
+  color: #13262F;
+}
+
+header {
+  background-color: #73683B;
+  color: #E9E6FF;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+nav ul {
+  padding: 0px;
+  list-style-type: none;
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #E9E6FF;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #B0A084; 
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+nav ul li a:active {
+    color: #583E23;
+}
+
+.hobby-item:hover {
+    transform: scale(1.05);
+    padding: 35px;
+    background-color: #B0A084;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+  nav ul li a:active {
+    color: #583E23;
+}
+
+.flex-container > div {
+    display: flex;
+  font-size: 20px;
+  padding: 30px;
+  background-color: #B0A084;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.hobby-item {
+    font-size: 30px;
+    padding: 30px;
+    background-color: #B0A084;
+    margin: 10px;
+    transition: transform 0.3ms;
+}
+.hobby-item:hover {
+    transform: scale:(1.10);
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+ h2 {animation: fadeIn 3s;}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #73683B;
+  color: #E9E6FF;
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+}
